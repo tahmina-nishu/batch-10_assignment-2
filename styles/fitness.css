@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    color: white;
+    margin: 5px 10px 0;
+}
+p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    opacity: 0.7;
+}
+main{
+    background: black;
+    margin-top: -0.1%;
+    padding: 7%;
+    text-align: center;
+    align-items: center;
+}
+.title{
+    margin-left: 80px; 
+    width: 650px;
+    height: 120px;
+}
+.navigation{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+   justify-content: space-between;
+}
+.fit{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 100%;
+    font-style: italic;
+}
+nav li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    margin: 5px 10px 0;
+    background-color: rgb(17, 17, 17);
+    padding: 1% 8% 0;
+}
+#banner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding-left: 25px;
+}
+#banner img{
+    height: 400px;
+    margin-left: 45%;
+}
+
+button{
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+    padding: 7px 20px;
+}
+#btn{
+    background-color: black;
+    border: 1.5px solid white;
+    margin-left: 15px;
+}
+#cards{
+    display: flex;
+}
+.card img{
+    border-radius: 50%;
+}
+.card h5{
+    margin-top: 8%;
+}
+.card p{
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    margin-bottom: 25%;
+}
+#run{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20%;
+    background: rgb(43, 42, 42);
+}
+#run-img{
+    border-radius: 14px;
+    width: 40%;
+}
+#BMI{
+    background: rgb(34, 34, 34);
+    margin: 0 -9.5%;
+    margin-bottom: 5%;
+    margin-top: -2%;
+    padding: 4% 8%;
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    margin-top: -0.1%;
+    background: rgb(34, 34, 34);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 5% 8% 1%;
+}
+#content{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+#foot{
+    text-align: center;
+}
+#fit-para{
+    font-size: 12px;
+}
+#copyright{
+    font-size: x-small;
+}
+
