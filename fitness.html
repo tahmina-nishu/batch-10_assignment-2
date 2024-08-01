@@ -23,8 +23,8 @@
         <div id="banner">
             <div id="banner-content">
                <h1>Get body in <span>shape</span> & stay healthy</h1>
-               <p>A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
-               <button>Join Club Now!</button><button id="btn">Download App</button> 
+               <p class="para">A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
+               <button>Join Club Now!</button><button class="btn">Download App</button> 
             </div>
             <div>
                 <img src="images/Images 2.png" alt="">
@@ -63,7 +63,7 @@
         <section id="Run">
             <div>
                 <h2>Run an Extra Mile Easily</h2>
-                <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
+                <p class="para">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
                 <button>Join Now</button>
             </div>
             <div>
@@ -75,6 +75,18 @@
                 <h2>Trainings and Exercises</h2>
                 <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
             </div>
+            <div id="training-img">
+                <div id="row-1">
+                    <img src="images/exercise1.jpg">
+                    <img src="images/exercise2.png">
+                    <img src="images/exercise3.png" class="remove">
+                </div>
+                <div id="row-2">
+                    <img src="images/exercise4.png">
+                    <img src="images/exercise5.jpg">
+                    <img src="images/exercise6.jpg" class="remove">
+                </div>
+            </div>
         </section>
         <section id="bmi">
             <div class="title">
@@ -84,10 +96,46 @@
             <div id="BMI">
                 <div>
                     <h3>BMI Calculator Chart</h3>
-                    <table></table>
+                    <table>
+                        <tr>
+                            <th>BMI </th>
+                            <th>Weight Status</th>
+                        </tr>
+                        <tr>
+                            <td>Below 18.5</td>
+                            <td>Underweight</td>
+                        </tr>
+                        <tr>
+                            <td>18.5 - 24.9</td>
+                            <td>Healthy</td>
+                        </tr>
+                        <tr>
+                            <td>25.0 - 29.9</td>
+                            <td>Overweight</td>
+                        </tr>
+                        <tr>
+                            <td>30.0 - and Above</td>
+                            <td>Obese</td>
+                        </tr>
+                    </table>
                 </div>
-                <div>
+                <div id="calculate-bmi">
                     <h3>Calculate your BMI</h3>
+                    <p class="para">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
+                    <div class="form">
+                        <div class="row">
+                            <input type="text" placeholder="Height/cm"></input>
+                            <input type="text" placeholder="Weight/kg"></input>
+                        </div>
+                        <div class="row">
+                            <input type="text" placeholder="Age"></input>
+                            <input type="text" placeholder="Sex"></input>
+                        </div>
+                        <div class="row">
+                            <input type="" placeholder="Select an activity factor">
+                        </div>
+                    </div>
+                    <button>Calculate</button>
                 </div>
             </div>
         </section>
@@ -96,25 +144,35 @@
                 <h2>Meet Our Team</h2>
                 <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
             </div>
+            <div class="team-pic">
+                <img src="images/trainer1.png">
+                <img src="images/trainer2.png">
+                <img src="images/trainer3.png">
+                <img src="images/trainer4.png">
+                <img src="images/trainer5.png">
+                <img src="images/trainer6.png">
+            </div>
         </section>
     </main>
     <footer>
         <div id="content">
             <div><h4 class="fit">Fitness</h4>
             <p id="fit-para">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p></div>
-            <div>
-                <h3>Get Started</h3>
-                <p>Service</p>
-                <p>Contact Us</p>
-                <p>Affiliate Program</p>
-                <p>About Us</p>
-            </div>
-            <div>
-                <h3>Get Started</h3>
-                <p>Fitness</p>
-                <p>Platform</p>
-                <p>Workout Libary</p>
-                <p>App Design</p>
+            <div class="extra-info">
+                <div>
+                    <h3>Get Started</h3>
+                    <p>Service</p>
+                    <p>Contact Us</p>
+                    <p>Affiliate Program</p>
+                    <p>About Us</p>
+                </div>
+                <div>
+                    <h3>Get Started</h3>
+                    <p>Fitness</p>
+                    <p>Platform</p>
+                    <p>Workout Libary</p>
+                    <p>App Design</p>
+                </div>
             </div>
         </div>
         <div id="foot">
