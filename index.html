@@ -26,8 +26,19 @@
                <p class="para">A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
                <button>Join Club Now!</button><button class="btn">Download App</button> 
             </div>
-            <div>
+            <div id="banner-img">
                 <img src="images/Images 2.png" alt="">
+                <div class="banner-card card-1">
+                    <h2>500+</h2>
+                    <P>Free Workout Videos</P>
+                </div>
+                <div class="banner-card card-2">
+                    <div class="circle"></div>
+                    <div>
+                        <h3>350+</h3>
+                        <P>Video tutorial</P>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
@@ -77,14 +88,44 @@
             </div>
             <div id="training-img">
                 <div id="row-1">
-                    <img src="images/exercise1.jpg">
-                    <img src="images/exercise2.png">
-                    <img src="images/exercise3.png" class="remove">
+                    <div class="ex-container">
+                        <img src="images/exercise1.jpg">
+                        <div class="overlay img-1">
+                            <h5 class="bottom-left">Lorem Ipsum</h5>
+                        </div>
+                    </div>
+                    <div class="ex-container">
+                        <img src="images/exercise2.png">
+                        <div class="overlay img-2">
+                            <h5 class="top-left">Lorem Ipsum</h5>
+                        </div>
+                    </div>
+                    <div class="ex-container">
+                        <img src="images/exercise3.png" class="remove">
+                        <div class="overlay img-3">
+                            <h5 class="bottom-left">Leg Press: Works the <br> quadriceps and glutes</h5>
+                        </div>
+                    </div>
                 </div>
                 <div id="row-2">
-                    <img src="images/exercise4.png">
-                    <img src="images/exercise5.jpg">
-                    <img src="images/exercise6.jpg" class="remove">
+                    <div class="ex-container">
+                        <img src="images/exercise4.png">
+                        <div class="overlay img-4">
+                            <h5 class="top-right">Leg Press: Works the <br> quadriceps and glutes</h5>
+                        </div>
+                    </div>
+                    <div class="ex-container">
+                        <img src="images/exercise5.jpg">
+                        <div class="overlay img-5">
+                            <h5 class="bottom-left">Leg Press: Works the <br> quadriceps and glutes</h5>
+                        </div>
+                    </div>
+                    <div class="ex-container">
+                        <img src="images/exercise6.jpg" class="remove">
+                        <div class="overlay img-6">
+                            <h5 class="bottom-left">Leg Press: Works the <br> quadriceps and glutes</h5>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -129,10 +170,16 @@
                         </div>
                         <div class="row">
                             <input type="text" placeholder="Age"></input>
-                            <input type="text" placeholder="Sex"></input>
+                            <select>
+                                <option>sex</option>
+                                <option>male</option>
+                                <option>female</option>
+                            </select>
                         </div>
                         <div class="row">
-                            <input type="" placeholder="Select an activity factor">
+                            <select>
+                                <option>Select an activity factor</option>
+                            </select>
                         </div>
                     </div>
                     <button>Calculate</button>
@@ -145,12 +192,48 @@
                 <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
             </div>
             <div class="team-pic">
-                <img src="images/trainer1.png">
-                <img src="images/trainer2.png">
-                <img src="images/trainer3.png">
-                <img src="images/trainer4.png">
-                <img src="images/trainer5.png">
-                <img src="images/trainer6.png">
+                <div class="team-container">
+                    <img src="images/trainer1.png">
+                    <div class="meet-intro">
+                        <h3>Jerome Bell</h3>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div class="team-container">
+                    <img src="images/trainer2.png">
+                    <div class="meet-intro">
+                        <h3>Cameron Willi</h3>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div class="team-container">
+                    <img src="images/trainer3.png">
+                    <div class="meet-intro">
+                        <h3>Darrell Steward</h3>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div class="team-container">
+                    <img src="images/trainer4.png">
+                    <div class="meet-intro">
+                        <h3>Dianne Russell</h3>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div class="team-container">
+                    <img src="images/trainer5.png">
+                    <div class="meet-intro">
+                        <h3>Cody Fisher</h3>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div class="team-container">
+                    <img src="images/trainer6.png">
+                    <div class="meet-intro">
+                        <h3>Theresa Webb</h3>
+                        <p>Trainer</p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
