@@ -229,6 +229,12 @@ td,th{
 .row{
     display: flex;
 }
+.txt{
+    color: black;
+}
+input::placeholder{
+    color: rgba(255, 255, 255, 0.6);
+}
 input, select{
     color: rgba(255, 255, 255, 0.6);
     border-radius: 4px;
