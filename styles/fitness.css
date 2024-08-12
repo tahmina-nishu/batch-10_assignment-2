@@ -203,6 +203,10 @@ main{
 #bmi{
     margin-top: 8%;
 }
+svg{
+    height: 30px;
+    width: 30px;
+}
 #BMI{
     background: rgb(34, 34, 34);
     margin: 0 -9%;
@@ -271,6 +275,26 @@ input, select{
     position: absolute;
     bottom: 8px;
     left: 16px;
+}
+#learn{
+    background: rgb(43, 42, 42);
+    padding: 30px 40px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.contents{
+    margin-top: -60px;
+}
+.contents,.learn-content{
+    display: flex;
+    text-align: left;
+}
+svg{
+    height: 25px;
+    width: 25px;
+}
+#learn button{
+    margin-top: 30px;
 }
 footer{
     margin-top: -0.1%;
@@ -382,9 +406,17 @@ footer{
         padding: 8px 7px;
     }
    #content, .extra-info{
-    grid-template-columns: 1fr;
-    row-gap: 15px;
+        grid-template-columns: 1fr;
+        row-gap: 15px;
    }
+   .learn-content{
+        gap: 10px;
+    }
+    .contents{
+        flex-direction: column;
+        gap: 10px;
+        margin-top: -90px;
+    }   
 }
 
 
@@ -459,5 +491,13 @@ footer{
     #content{
         grid-template-columns: 1fr;
         row-gap: 20px;
+    }
+    .learn-content{
+        gap: 10px;
+    }
+    .contents{
+        flex-direction: column;
+        gap: 10px;
+        margin-top: -120px;
     }
 }
