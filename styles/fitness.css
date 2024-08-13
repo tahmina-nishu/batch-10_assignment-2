@@ -52,6 +52,10 @@ nav li{
 a{
     text-decoration: none;
 }
+.three-dot{
+    width: 30px;
+    display: none;
+}
 #banner{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -276,7 +280,9 @@ input, select{
     bottom: 8px;
     left: 16px;
 }
-#learn{
+button:hover{
+    background: green;
+}#learn{
     background: rgb(43, 42, 42);
     padding: 30px 40px;
     margin-bottom: 30px;
@@ -289,12 +295,15 @@ input, select{
     display: flex;
     text-align: left;
 }
-svg{
+.learn-content img{
     height: 25px;
     width: 25px;
 }
-#learn button{
-    margin-top: 30px;
+#lrn-bt{
+    margin-top: 40px;
+}
+button:hover{
+    background-color: green;
 }
 footer{
     margin-top: -0.1%;
@@ -321,8 +330,14 @@ footer{
     *{
         margin: 0;
     }
+    .nav-item{
+        display: none;
+    }
     p,td{
         letter-spacing: 1px;
+    }
+    .three-dot{
+        display: flex;
     }
     header{
         margin: 0;
@@ -351,8 +366,8 @@ footer{
     }
     .card-1{
         padding-left: 15px;
-        top: 20%;
-        right: -25%;
+        top: 25%;
+        right: -18%;
     }
     .card-2{
         gap: 10px;
@@ -388,7 +403,8 @@ footer{
         display: none;
     }
     #BMI{
-    grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
+        margin: 0 -8%;
     }
     #calculate-bmi{
         margin-top: 20px;
@@ -469,8 +485,14 @@ footer{
         margin-top: 15px;
         margin-bottom: -5px;
     }
+    #Run{
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
     #BMI{
         grid-template-columns: 1fr;
+        margin-left: -8%;
+        margin-right: -8%;
     }
     #calculate-bmi{
         margin-top: 20px;
